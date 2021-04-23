@@ -10,6 +10,7 @@
 
 #### CI and Code Quality
 
-|Build|Cppcheck|
-|:--:|:--:|
-|[![Compile-Linux](https://github.com/Sowmika26/Embedded_project_260842/actions/workflows/Compile.yml/badge.svg)](https://github.com/Sowmika26/Embedded_project_260842/actions/workflows/Compile.ymll)|[![Cppcheck](https://github.com/Sowmika26/Embedded_project_260842/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Sowmika26/Embedded_project_260842/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/643b7ca2b2dc4daba1e700c216bb87d9)]|
+|Build|Cppcheck|Codacy|
+|:--:|:--:|:--:|
+|[![Compile-Linux](https://github.com/Sowmika26/Embedded_project_260842/actions/workflows/compile.yml/badge.svg)](https://github.com/Sowmika26/Embedded_project_260842/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/Sowmika26/Embedded_project_260842/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Sowmika26/Embedded_project_260842/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/254dbfd046374361be1eac45f2db66c0)](https://www.codacy.com/gh/Sowmika26/Embedded_project_260842/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sowmika26/Embedded_project_260842&amp;utm_campaign=Badge_Grade)|
+
