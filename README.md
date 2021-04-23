@@ -6,7 +6,7 @@
 
 |ON|OFF|
 |:--:|:--:|
-|![ON](simulation/LED_ON.png)|![OFF](simulation/LED_OFF.png)|
+|![ON](Activity_1/simulation/LED_ON.png)|![OFF](Activity_1/simulation/LED_OFF.png)|
 
 #### CI and Code Quality
 
