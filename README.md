@@ -1,20 +1,16 @@
 # Embedded_project_260842
 
 # Activity_1
- ## The Activity1 is all about if the person sits in the car seat then the ButtonSensor should activate and if the person turns ON the heater then LED should Glow.
-
-## In Action
+ ## In Action
 
 |ON|OFF|
 |:--:|:--:|
 |![ON](simulation/LED_ON.png)|![OFF](simulation/LED_OFF.png)|
 
 # Activity_2
- ## The Activity2 is about if both the  conditions are true, then in such case the input analog temperature readings are converted into digital values.
-![ADC](https://github.com/Sowmika26/Embedded_project_260842/blob/main/simulation/ADC.png)
+ ![ADC](https://github.com/Sowmika26/Embedded_project_260842/blob/main/simulation/ADC.png)
 
 # Activity_3
- ## The Activity3 is  Using PWM then the digital values are displayed in the Oscilloscope.
 ## DutyCycle
 
 |PWM_20%|PWM_40%|
