@@ -25,7 +25,7 @@ void UARTinit(uint16_t ubrr_value){
 
 
 /**
- * @brief A function to read characters coming from other UART port
+ * @brief Function to read characters coming from the UART port
  *
  * @return char
  */
@@ -41,9 +41,9 @@ return UDR0;
 
 
 /**
- * @brief A function to write characters to send it to other UART port
+ * @brief  Function to write characters to send it to other port of UART
  *
- * @param data
+ * 
  */
 void UARTwritecharacter(char data){
 
