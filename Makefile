@@ -7,7 +7,7 @@ SRC = src/activity1.c\
 src/activity2.c\
 src/activity3.c\
 src/activity4.c\
-Seat_Application.c
+SeatHeaterApplication.c
 
 # All header file paths
 INC = -I inc
@@ -71,4 +71,3 @@ clean:
 	make -C documentation clean
 #rmdir $(BUILD_DIR)
 #$(RM) $(call FixPath,$(BUILD_DIR)/*)	
-
