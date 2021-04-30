@@ -20,6 +20,14 @@
 |   |   |
 ![PWM_70%_Dutycycle](https://github.com/Sowmika26/Embedded_project_260842/blob/main/simulation/PWM_70%25_Dutycycle.png)|![PWM_95%_Dutycycle](https://github.com/Sowmika26/Embedded_project_260842/blob/main/simulation/PWM_95%25_Dutycycle.png)
 
+# Activity_4
+
+### ON condition
+![activity4ON](https://github.com/Sowmika26/Embedded_project_260842/blob/main/simulation/act4.1.png)
+
+### OFF condition
+
+![activity4OFF](https://github.com/Sowmika26/Embedded_project_260842/blob/main/simulation/act4.png)
 
 
 #### CI and Code Quality
