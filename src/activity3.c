@@ -12,24 +12,22 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-
 /**
  * @brief of activity3
- *
+ * 
  */
  void activity3(void){
 
-    SET_TIMER1A; // To Set Timer1A which is as fast as PWM.
-    PRESCALER_64; //prescalar as 64
-    SET_PWM; //To Set PWM as Output
+    SET_TIMER1A; //Set Timer1A which is fast PWM
+    PRESCALER_64; //prescalar 64
+    SET_PWM; //Set PWM as Output
 
 }
 
-<<<<<<< HEAD
 /**
- * @brief
- *
- * @param ADC_Value
+ * @brief 
+ * 
+ * @param ADC_Value 
  */
  void PWMoutput(uint16_t ADC_Value){
     int i;
@@ -47,19 +45,10 @@
         for(i=0;i<=5;i++){
             UARTwritecharacter(temperature[i]);
         }
-=======
-char PWMoutput(uint16_t ADC_Value){
-
-    if((ADC_Value>=0) && (ADC_Value<=200)){
-
-        OCR1A = 204;   //20% duty cycle
->>>>>>> 10e6761d1ea8c81fd6eab04737eb913e73a279a8
         _delay_ms(20);
-        return 'a';
     }
     else if((ADC_Value>=210) && (ADC_Value<=500)){
 
-<<<<<<< HEAD
         OCR1A = 390;    //40% of duty cycle
 	temperature[0] = '2';
         temperature[1] = '5';
@@ -70,15 +59,10 @@ char PWMoutput(uint16_t ADC_Value){
         for(i=0;i<5;i++){
             UARTwritecharacter(temperature[i]);
         }
-=======
-        OCR1A = 409;    //40% duty cycle
->>>>>>> 10e6761d1ea8c81fd6eab04737eb913e73a279a8
         _delay_ms(20);
-       return 'b';
     }
     else if((ADC_Value>=510) && (ADC_Value<=700)){
 
-<<<<<<< HEAD
         OCR1A = 670;   //80% of duty cycle
 	temperature[0] = '2';
         temperature[1] = '9';
@@ -89,15 +73,10 @@ char PWMoutput(uint16_t ADC_Value){
         for(i=0;i<=5;i++){
             UARTwritecharacter(temperature[i]);
         }
-=======
-        OCR1A = 716;   //70% duty cycle
->>>>>>> 10e6761d1ea8c81fd6eab04737eb913e73a279a8
         _delay_ms(20);
-        return 'c';
     }
     else if((ADC_Value>=710) && (ADC_Value<=1024)){
 
-<<<<<<< HEAD
         OCR1A = 970;   //100% of duty cycle
 	temperature[0] = '3';
         temperature[1] = '3';
@@ -111,7 +90,7 @@ char PWMoutput(uint16_t ADC_Value){
         _delay_ms(20);
     }
     else{
-        OCR1A = 0;  //0% of duty cycle
+        OCR1A = 0;  //0% of duty cycle 
 	temperature[0] = 'O';
         temperature[1] = 'F';
         temperature[2] = 'F';
@@ -122,11 +101,6 @@ char PWMoutput(uint16_t ADC_Value){
             UARTwritecharacter(temperature[i]);
         }
 	_delay_ms(20);
-=======
-        OCR1A = 980;   //95% duty cycle
-        _delay_ms(20);
-        return 'd';
->>>>>>> 10e6761d1ea8c81fd6eab04737eb913e73a279a8
     }
 
 }
